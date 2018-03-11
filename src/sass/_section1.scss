@@ -44,7 +44,7 @@ nav {
 
 // Paragraphe//
 
-p {
+.p {
     text-align: center;
     padding-top: 100px;
     font-family: 'Satisfy', cursive;
@@ -71,6 +71,7 @@ p {
 .ulend {
     text-align: center;
     padding-bottom: 200px;
+    margin-bottom: 0;
 }
 
 .liend {
@@ -93,3 +94,5 @@ p {
 #aend:hover {
     color: black;
 }
+
+// End of page //

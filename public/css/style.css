@@ -32,7 +32,7 @@ nav {
   text-decoration-line: none;
   padding: 5px; }
 
-p {
+.p {
   text-align: center;
   padding-top: 100px;
   font-family: 'Satisfy', cursive;
@@ -52,7 +52,8 @@ p {
 
 .ulend {
   text-align: center;
-  padding-bottom: 200px; }
+  padding-bottom: 200px;
+  margin-bottom: 0; }
 
 .liend {
   display: inline-block;
@@ -70,6 +71,40 @@ p {
 
 #aend:hover {
   color: black; }
+
+.section2 {
+  background-image: url(../../coding-school-revision-1/images/main_bg.jpg); }
+
+.menu {
+  background-color: white;
+  position: relative;
+  border: gray solid 1px; }
+
+.languetteright {
+  position: absolute;
+  right: 0;
+  padding-right: 12px; }
+
+.titrestoryetmenu {
+  font-family: 'Satisfy', cursive;
+  font-size: 200%;
+  text-align: center;
+  color: black;
+  margin: 0; }
+
+.our {
+  color: tomato;
+  font-size: 150%; }
+
+.cloche {
+  padding-bottom: 50px; }
+
+.storypara {
+  color: black;
+  font-family: 'Satisfy', cursive;
+  text-justify: auto;
+  margin-left: 300px;
+  margin-right: 300px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

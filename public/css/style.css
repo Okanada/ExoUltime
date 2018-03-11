@@ -1,20 +1,75 @@
 .section1 {
-  background-image: url(../../coding-school-revision-1/images/banner1.jpg); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/banner1.jpg);
+  background-size: auto,cover; }
 
 nav {
   display: flex; }
 
 .leftul {
-  float: left; }
+  border-bottom: gray solid 2px;
+  border-top: gray solid 2px;
+  padding-left: 0;
+  text-align: center; }
 
 .rightul {
-  float: right; }
+  padding: 0;
+  border-bottom: gray solid 2px;
+  border-top: gray solid 2px; }
 
 .linavbar {
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .linavbar :hover {
+    background-color: firebrick;
+    border-radius: 10px; }
 
 #logonavbar {
-  padding-left: 185px; }
+  padding-left: 40px; }
+
+#anav {
+  color: white;
+  text-decoration-line: none;
+  padding: 5px; }
+
+p {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Satisfy', cursive;
+  font-size: 300%;
+  color: white;
+  padding: 0; }
+
+.span1 {
+  color: tomato;
+  font-size: 80px; }
+
+.span2 {
+  font-size: 60px; }
+
+.span3 {
+  font-size: 60px; }
+
+.ulend {
+  text-align: center;
+  padding-bottom: 200px; }
+
+.liend {
+  display: inline-block;
+  margin: 30px;
+  background-color: tomato;
+  padding: 15px;
+  border-radius: 15px; }
+
+.liend:hover {
+  background-color: white; }
+
+#aend {
+  text-decoration-line: none;
+  color: white; }
+
+#aend:hover {
+  color: black; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

@@ -155,7 +155,30 @@ nav {
 
 .petitrowmenu {
   border-bottom-style: dotted;
-  border-bottom-width: 1px; }
+  border-bottom-width: 1px;
+  border-bottom-color: gray; }
+
+.section3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/team_background.jpg);
+  background-size: auto,cover; }
+
+.chef {
+  border-bottom-width: 2px;
+  border-bottom-color: gray;
+  border-bottom-style: solid; }
+
+.section4 {
+  background-image: url(../../coding-school-revision-1/images/main_bg.jpg); }
+
+.menu {
+  background-color: white;
+  position: relative;
+  border: gray solid 1px; }
+
+.languetteright {
+  position: absolute;
+  right: 0;
+  padding-right: 12px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

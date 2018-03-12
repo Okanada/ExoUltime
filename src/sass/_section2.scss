@@ -44,3 +44,75 @@
 }
 
 // Menu //
+
+// Menu de gauche //
+
+#menugauche {
+    display: flex;
+}
+
+.ulmenugauche {
+    padding-bottom: 100px;
+    flex-direction: column;
+    border-right: solid gray 1px;
+
+    &:hover {
+        border-right-color: transparent;
+    }
+}
+
+.limenugauche {
+    padding-right: 5px;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    border-bottom: solid gray 1px;
+    border-right: solid #ff000000 5px;
+
+    &:hover {
+        border-right: solid tomato 5px;
+
+        #logomenugauche {
+            color: tomato;
+        }
+    }
+}
+
+#logomenugauche {
+    color: gray;
+}
+
+// Menu de droite //
+
+#imgcafé {
+    width: 150%;
+    border: solid gray 2px;
+}
+
+#col25dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #dollar25 {
+        color: firebrick;
+        background-color: rgba(235, 228, 228, 0.877);
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.spanmenu1 {
+    color: black;
+}
+
+.spanmenu2 {
+    color: grey;
+}
+
+.petitrowmenu {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}

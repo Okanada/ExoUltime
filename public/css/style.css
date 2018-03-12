@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .section1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/banner1.jpg);
   background-size: auto,cover; }
@@ -64,13 +65,12 @@ nav {
 
 .liend:hover {
   background-color: white; }
+  .liend:hover #aend {
+    color: black; }
 
 #aend {
   text-decoration-line: none;
   color: white; }
-
-#aend:hover {
-  color: black; }
 
 .section2 {
   background-image: url(../../coding-school-revision-1/images/main_bg.jpg); }
@@ -105,6 +105,57 @@ nav {
   text-justify: auto;
   margin-left: 300px;
   margin-right: 300px; }
+
+#menugauche {
+  display: flex; }
+
+.ulmenugauche {
+  padding-bottom: 100px;
+  flex-direction: column;
+  border-right: solid gray 1px; }
+  .ulmenugauche:hover {
+    border-right-color: transparent; }
+
+.limenugauche {
+  padding-right: 5px;
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
+  border-bottom: solid gray 1px;
+  border-right: solid #ff000000 5px; }
+  .limenugauche:hover {
+    border-right: solid tomato 5px; }
+    .limenugauche:hover #logomenugauche {
+      color: tomato; }
+
+#logomenugauche {
+  color: gray; }
+
+#imgcafé {
+  width: 150%;
+  border: solid gray 2px; }
+
+#col25dollar {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #col25dollar #dollar25 {
+    color: firebrick;
+    background-color: rgba(235, 228, 228, 0.877);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.spanmenu1 {
+  color: black; }
+
+.spanmenu2 {
+  color: grey; }
+
+.petitrowmenu {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

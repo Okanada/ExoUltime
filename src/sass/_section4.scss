@@ -32,3 +32,61 @@
 .form-control {
     border: $border;
 }
+
+.ulres {
+    text-align: center;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.lires {
+    display: inline-block;
+    margin: 30px;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.lires:hover {
+    background-color: white;
+
+    #ares {
+        color: black;
+    }
+}
+
+#ares {
+    text-decoration-line: none;
+    color: white;
+}
+
+// Blog //
+
+.rowblog {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imgblog {
+    width: 80%;
+    height: 230px;
+    border-radius: 15px;
+    border: solid rgb(196, 188, 188) 3px;
+}
+
+.liblog {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-top: -15px;
+}
+
+.loremblog {
+    padding-right: 180px;
+}
+
+.parablog {
+    font-size: 150%;
+    font-family: 'Satisfy', cursive;
+}

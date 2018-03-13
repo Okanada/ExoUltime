@@ -6684,4 +6684,53 @@ nav {
 .form-control {
   border: 2px solid gray; }
 
+.ulres {
+  text-align: center;
+  padding-bottom: 200px;
+  margin-bottom: 0;
+  padding: 0; }
+
+.lires {
+  display: inline-block;
+  margin: 30px;
+  background-color: tomato;
+  padding: 15px;
+  border-radius: 15px; }
+
+.lires:hover {
+  background-color: white; }
+  .lires:hover #ares {
+    color: black; }
+
+#ares {
+  text-decoration-line: none;
+  color: white; }
+
+.rowblog {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.imgblog {
+  width: 80%;
+  height: 230px;
+  border-radius: 15px;
+  border: solid #c4bcbc 3px; }
+
+.liblog {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  margin-top: -15px; }
+
+.loremblog {
+  padding-right: 180px; }
+
+.parablog {
+  font-size: 150%;
+  font-family: 'Satisfy', cursive; }
+
+.section5 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/testimonials_background.jpg);
+  background-size: auto,cover; }
+
 /*# sourceMappingURL=style.css.map */

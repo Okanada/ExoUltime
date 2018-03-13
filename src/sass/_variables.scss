@@ -1,0 +1,8 @@
+// For border-radius des input //
+
+$input-border-radius: 15px;
+$input-border-color: gray;
+$input-border-style: solid;
+$input-border-width: 2px;
+
+$border: $input-border-width $input-border-style $input-border-color;

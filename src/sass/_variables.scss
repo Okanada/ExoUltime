@@ -18,8 +18,14 @@ $borderinput: $input-border-width $input-border-style $input-border-color;
 
 $btn-border-radius: 15px;
 
-
 // ---------------------------------------------------------------------------------------//
+
+//Navbar//
+
+$navbar-light-active-color: white;
+$navbar-light-color: white;
+$navbar-light-hover-color: white;
+$navbar-nav-link-padding-x: 20px;
 
 // Section 5 //
 
@@ -37,3 +43,12 @@ $borderradius: $border-radius;
 
 $width: 100%;
 $widthtesti: $width;
+
+//Section 7 //
+
+// Border boutons footer //
+
+$border-color: gray;
+$border-style: solid;
+$border-width: 3px;
+$borderboutonfooter: $border-color $border-style $border-width;

@@ -2815,8 +2815,8 @@ tbody.collapse.show {
         right: 0;
         left: auto; }
       .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 20px;
+        padding-left: 20px; }
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
       flex-wrap: nowrap; }
@@ -2845,8 +2845,8 @@ tbody.collapse.show {
         right: 0;
         left: auto; }
       .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 20px;
+        padding-left: 20px; }
     .navbar-expand-md > .container,
     .navbar-expand-md > .container-fluid {
       flex-wrap: nowrap; }
@@ -2875,8 +2875,8 @@ tbody.collapse.show {
         right: 0;
         left: auto; }
       .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 20px;
+        padding-left: 20px; }
     .navbar-expand-lg > .container,
     .navbar-expand-lg > .container-fluid {
       flex-wrap: nowrap; }
@@ -2905,8 +2905,8 @@ tbody.collapse.show {
         right: 0;
         left: auto; }
       .navbar-expand-xl .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 20px;
+        padding-left: 20px; }
     .navbar-expand-xl > .container,
     .navbar-expand-xl > .container-fluid {
       flex-wrap: nowrap; }
@@ -2933,8 +2933,8 @@ tbody.collapse.show {
       right: 0;
       left: auto; }
     .navbar-expand .navbar-nav .nav-link {
-      padding-right: 0.5rem;
-      padding-left: 0.5rem; }
+      padding-right: 20px;
+      padding-left: 20px; }
   .navbar-expand > .container,
   .navbar-expand > .container-fluid {
     flex-wrap: nowrap; }
@@ -2948,31 +2948,31 @@ tbody.collapse.show {
     bottom: 100%; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: white; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: white; }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5); }
+  color: white; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7); }
+    color: white; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: white; }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   border-color: rgba(0, 0, 0, 0.1); }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.5); }
+  color: white; }
   .navbar-light .navbar-text a {
-    color: rgba(0, 0, 0, 0.9); }
+    color: white; }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-      color: rgba(0, 0, 0, 0.9); }
+      color: white; }
 
 .navbar-dark .navbar-brand {
   color: #fff; }
@@ -6495,39 +6495,16 @@ a.text-dark:hover, a.text-dark:focus {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/banner1.jpg);
   background-size: auto,cover; }
 
-nav {
-  display: flex; }
-
-.leftul {
-  border-bottom: gray solid 2px;
-  border-top: gray solid 2px;
-  padding-left: 0;
-  text-align: center; }
-
-.rightul {
-  padding: 0;
-  border-bottom: gray solid 2px;
-  border-top: gray solid 2px; }
-
-.linavbar {
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 15px; }
-  .linavbar :hover {
-    background-color: firebrick;
-    border-radius: 10px; }
-
-#logonavbar {
-  padding-left: 40px; }
-
-#anav {
-  color: white;
-  text-decoration-line: none;
-  padding: 5px; }
+.ulnav {
+  border-top: solid gray 2px;
+  border-bottom: solid gray 2px; }
+  .ulnav .nav-item:hover {
+    background-color: tomato;
+    color: white; }
 
 .p {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 200px;
   font-family: 'Satisfy', cursive;
   font-size: 300%;
   color: white;
@@ -6553,16 +6530,20 @@ nav {
   margin: 30px;
   background-color: tomato;
   padding: 15px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  border: solid tomato 3px; }
 
 .liend:hover {
   background-color: white; }
   .liend:hover #aend {
-    color: black; }
+    color: tomato; }
 
 #aend {
   text-decoration-line: none;
   color: white; }
+
+.petitbouton {
+  border-radius: 100%; }
 
 .section2 {
   background-image: url(../../coding-school-revision-1/images/main_bg.jpg); }
@@ -6695,12 +6676,14 @@ nav {
   margin: 30px;
   background-color: tomato;
   padding: 15px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  border: solid tomato 3px; }
 
 .lires:hover {
-  background-color: white; }
+  background-color: white;
+  border: solid tomato 3px; }
   .lires:hover #ares {
-    color: black; }
+    color: tomato; }
 
 #ares {
   text-decoration-line: none;
@@ -6770,5 +6753,52 @@ nav {
 
 .iconfooter {
   font-size: 200%; }
+
+.btn1 {
+  width: 25%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn2 {
+  width: 50%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn3 {
+  width: 18%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn4 {
+  width: 35%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn5 {
+  width: 15%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn6 {
+  width: 20%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn7 {
+  width: 30%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.btn8 {
+  width: 17%;
+  font-size: 75%;
+  border: gray solid 3px; }
+
+.popular button {
+  margin-top: 5px; }
+
+footer {
+  background-color: tomato;
+  height: 80px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,3 +16,64 @@
 .iconfooter {
     font-size: 200%;
 }
+
+// col4 de droite
+
+.btn1 {
+    width: 25%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn2 {
+    width: 50%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn3 {
+    width: 18%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn4 {
+    width: 35%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn5 {
+    width: 15%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn6 {
+    width: 20%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn7 {
+    width: 30%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.btn8 {
+    width: 17%;
+    font-size: 75%;
+    border: $borderboutonfooter;
+}
+
+.popular {
+    button {
+        margin-top: 5px;
+    }
+}
+
+footer {
+    background-color: $primary;
+    height: 80px;
+}

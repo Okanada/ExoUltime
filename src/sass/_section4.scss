@@ -46,13 +46,15 @@
     background-color: tomato;
     padding: 15px;
     border-radius: 15px;
+    border: solid tomato 3px;
 }
 
 .lires:hover {
     background-color: white;
+    border: solid tomato 3px;
 
     #ares {
-        color: black;
+        color: tomato;
     }
 }
 

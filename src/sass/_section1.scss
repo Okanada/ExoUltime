@@ -4,49 +4,23 @@
 }
 
 // NAVBAR //
-nav {
-    display: flex;
-}
+.ulnav {
+    border-top: solid gray 2px;
+    border-bottom: solid gray 2px;
 
-.leftul {
-    border-bottom: gray solid 2px;
-    border-top: gray solid 2px;
-    padding-left: 0;
-    text-align: center;
-}
-
-.rightul {
-    padding: 0;
-    border-bottom: gray solid 2px;
-    border-top: gray solid 2px;
-}
-
-.linavbar {
-    display: inline-block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-    & :hover {
-        background-color: firebrick;
-        border-radius: 10px;
+    .nav-item {
+        &:hover {
+            background-color: $primary;
+            color: white;
+        }
     }
-}
-
-#logonavbar {
-    padding-left: 40px;
-}
-
-#anav {
-    color: white;
-    text-decoration-line: none;
-    padding: 5px;
 }
 
 // Paragraphe//
 
 .p {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     font-family: 'Satisfy', cursive;
     font-size: 300%;
     color: white;
@@ -80,13 +54,14 @@ nav {
     background-color: tomato;
     padding: 15px;
     border-radius: 15px;
+    border: solid tomato 3px;
 }
 
 .liend:hover {
     background-color: white;
 
     #aend {
-        color: black;
+        color: tomato;
     }
 }
 
@@ -95,4 +70,8 @@ nav {
     color: white;
 }
 
-// End of page //
+// 3 bouboules //
+
+.petitbouton {
+    border-radius: 100%;
+}

@@ -1,3 +1,10 @@
+// couleur tomato //
+$tomato: tomato;
+$primary: $tomato;
+
+$gris: gray;
+$secondary: $gris;
+
 // For border-radius des input //
 
 $input-border-radius: 15px;
@@ -5,4 +12,28 @@ $input-border-color: gray;
 $input-border-style: solid;
 $input-border-width: 2px;
 
-$border: $input-border-width $input-border-style $input-border-color;
+$borderinput: $input-border-width $input-border-style $input-border-color;
+
+//Border Radius des boutons //
+
+$btn-border-radius: 15px;
+
+
+// ---------------------------------------------------------------------------------------//
+
+// Section 5 //
+
+//Border images Testimonials //
+
+$border-color: gray;
+$border-style: solid;
+$border-width: 3px;
+$border-rounded: circle;
+$border-radius: 100%;
+$bordergris: $border-width $border-style $border-color;
+
+$border-radius: 100%;
+$borderradius: $border-radius;
+
+$width: 100%;
+$widthtesti: $width;

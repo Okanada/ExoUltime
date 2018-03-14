@@ -2,3 +2,14 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../coding-school-revision-1/images/testimonials_background.jpg);
     background-size: auto,cover;
 }
+
+.imgtesti {
+    border: $bordergris;
+    border-radius: $borderradius;
+    width: $widthtesti;
+}
+
+.paracol8 {
+    border: $bordergris;
+    border-radius: 15px;
+}
